@@ -15,3 +15,15 @@ console.log(`Quadrado de lado 100cm: ${Exercise.square(10)}cm²`);
 console.log(`Retângulo de base 10cm e altura 25cm: ${Exercise.rectangle(10, 25)}cm²`);
 console.log(`Retângulo de base 5cm e altura 30cm: ${Exercise.rectangle(5, 30)}cm²`);
 console.log(`Retângulo de base 100cm e altura 200cm: ${Exercise.rectangle(10, 25)}cm²`);
+
+console.log(`losango que tem D=32cm e d=18cm: ${Exercise.losango(32, 18)}cm²`);
+console.log(`losango que tem D=32cm e d=18cm: ${Exercise.losango(200, 50)}cm²`);
+console.log(`losango que tem D=32cm e d=18cm: ${Exercise.losango(75, 25)}cm²`);
+
+console.log(`Trapézio que tem B= 100cm, b= 70cm e altura= 50cm: ${Exercise.trapezio(100, 70, 50)}cm²`);
+console.log(`Trapézio que tem B= 100cm, b= 70cm e altura= 50cm: ${Exercise.trapezio(75, 50, 35)}cm²`);
+console.log(`Trapézio que tem B= 100cm, b= 70cm e altura= 50cm: ${Exercise.trapezio(150, 120, 80)}cm²`);
+
+console.log(`Círculo de raio igual 25cm: ${Exercise.circulo(25)}cm²`);
+console.log(`Círculo de raio igual 25cm: ${Exercise.circulo(100)}cm²`);
+console.log(`Círculo de raio igual 25cm: ${Exercise.circulo(12.5)}cm²`);
